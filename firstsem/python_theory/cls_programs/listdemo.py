@@ -1,0 +1,11 @@
+marks=['sachin',50,55,67,76,89]
+my_mark=[]
+sum=0
+for number in range(5):
+    newmark=int(input("enter the marks:"))
+    my_mark.append(newmark)
+print("list elements are")
+for i in range(len(my_mark)):
+    print("")
+for i in range (len(my_mark)):
+    sum+=my_mark[i]
